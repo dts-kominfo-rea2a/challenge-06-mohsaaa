@@ -44,6 +44,7 @@ const bacaData = (fnCallback) => {
     });
 };
 
+// fungsi untuk split kata pertama dan kedua
 const kataKedua = (kata) => {
   const kataAkhir = kata.split(" ").reverse();
 
